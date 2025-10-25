@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE library SYSTEM "biblioteca.dtd"> -->
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="biblioteca.xsd">
+    <book>
+        <title>El Quijote</title>
+        <author>Miguel de Cervantes</author>
+        <year>1605</year>
+        <publisher>Francisco de Robles</publisher>
+        <pages>863</pages>
+    </book>
+    <book>
+        <title>Cien Años de Soledad</title>
+        <author>Gabriel García Márquez</author>
+        <year>1967</year>
+        <publisher>Editorial Sudamericana</publisher>
+        <pages>417</pages>
+    </book>
+    <book>
+        <title>La Sombra del Viento</title>
+        <author>Carlos Ruiz Zafón</author>
+        <year>2001</year>
+        <publisher>Planeta</publisher>
+        <pages>565</pages>
+    </book>
+</library>
