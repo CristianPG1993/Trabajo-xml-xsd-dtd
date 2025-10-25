@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE plataforma SYSTEM "plataforma.dtd"> -->
+<plataforma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="plataforma.xsd" fecha_publicacion="2025-09-01">
+    <cursos>
+        <curso id="C001" codigo="XML101">
+            <titulo>Curso básico sobre XML y sus tecnologías asociadas.</titulo>
+            <nivel>principiante</nivel>
+            <modalidad>online</modalidad>
+            <horas>40</horas>
+            <modulos>
+                <modulo clave="M001">
+                    <nombre>Introducción a XML</nombre>
+                    <horas>10</horas>
+                </modulo>
+                <modulo clave="M002">
+                    <nombre>XML Schema y Validación</nombre>
+                    <horas>15</horas>
+                </modulo>
+                <modulo clave="M003">
+                    <nombre>XSLT y Transformaciones</nombre>
+                    <horas>15</horas>
+                </modulo>
+            </modulos>
+        </curso>
+
+        <curso id="C002" codigo="WEB202">
+            <titulo>Desarrollo de Aplicaciones Web con XML</titulo>
+            <nivel>intermedio</nivel>
+            <modalidad>presencial</modalidad>
+            <horas>60</horas>
+        </curso>
+    </cursos>
+
+    <alumnos>
+        <alumno id="A001" nif="12345678A">
+            <nombre>Ana</nombre>
+            <email>ana.garcia@example.com</email>
+            <telefono>+34123456789</telefono>
+        </alumno>
+        <alumno id="A002" nif="87654321B">
+            <nombre>Juan</nombre>
+            <email>juan.perez@example.com</email>
+        </alumno>
+    </alumnos>
+
+    <matriculas>
+        <matricula id="M001" alumnoRef="A001" cursoRef="C001">
+            <fecha_alta>2025-09-15</fecha_alta>
+            <estado>activa</estado>
+        </matricula>
+        <matricula id="M002" alumnoRef="A002" cursoRef="C002">
+            <fecha_alta>2025-09-20</fecha_alta>
+            <estado>activa</estado>
+        </matricula>
+    </matriculas>
+
+    <evaluaciones>
+        <evaluacion id="E001" matriculaRef="M001">
+            <instrumento>examen</instrumento>
+            <convocatoria>septiembre 2025</convocatoria>
+            <nota>8.5</nota>
+        </evaluacion>
+        <evaluacion id="E002" matriculaRef="M002">
+            <instrumento>proyecto</instrumento>
+            <convocatoria>octubre 2025</convocatoria>
+            <nota>9.0</nota>
+        </evaluacion>
+    </evaluaciones>
+
+</plataforma>

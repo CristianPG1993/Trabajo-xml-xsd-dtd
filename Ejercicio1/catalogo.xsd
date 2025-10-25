@@ -11,6 +11,8 @@
         </xs:complexType>
     </xs:element>
 
+    <!--LIBROS-->
+
     <xs:element name="libros">
         <xs:complexType>
             <xs:sequence>
@@ -71,6 +73,8 @@
         </xs:complexType>
     </xs:element>
 
+    <!-- REVISTAS-->
+
     <xs:element name="revistas">
         <xs:complexType>
             <xs:sequence>
@@ -98,6 +102,7 @@
         </xs:restriction>
     </xs:simpleType>
 
+    <!-- USUARIOS-->
 
     <xs:element name="usuarios">
         <xs:complexType>
@@ -129,6 +134,9 @@
             <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"></xs:pattern>
         </xs:restriction>
     </xs:simpleType>
+
+    <!-- PRESTAMOS-->
+
     <xs:element name="prestamos">
         <xs:complexType>
             <xs:sequence>
@@ -148,7 +156,6 @@
         <xs:attribute name="itemRef" type="xs:string" use="required"></xs:attribute>
         <xs:attribute name="usuarioRef" type="xs:string" use="required"></xs:attribute>
         </xs:complexType>
-       
     </xs:element>
 
     <xs:simpleType name="estadoPrestamo">
